@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="UTF-8"/>
+     <title>暐勛的部落格</title>
+     <link rel="stylesheet" href="style.css"/>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+     <script>
+     $(document).ready(function(){
+       $("#btn1").click(function(){
+         $("#p2").toggle();
+       });
+       $("#btn2").click(function(){
+        $("#div1").fadeIn();
+        $("#div2").fadeIn("slow");
+        $("#div3").fadeIn(3000);
+       });
+
+      });
+</script>
+  </head>
+  <body>
+   <!--<p id="p4" onclick="welcome()" class="imgs">
+      This is my website(you can touch me)
+   </p>-->
+   <p id="p2">
+      This is my website
+   </p>
+   <button id="btn1">Toggle between hide() and show()</button>
+   <button id="btn2">Click to fade in boxes</button>
+   <p id="p3">This is me</p>
+     <img src="wnnie.jpeg" width="400" height="400">
+     <h1>my life</h1>
+     <p>my gmail is</p>
+     <p class="gmail">s1101780@gm.pu.edu.tw</p>
+     <p>I love mylife,you can know my character is</p>
+     <p class="character">happy</p>
+     <p>my classmate is</p>
+     <p class="classmate">HOHO</p>
+     <p>my department is</p>
+     <p class="department">cs</p>
+     <p>my school is</p>
+     <p class="school">pu</p>
+     <p>my second friend is</p>
+     <p class="classmate">YOWHA</p>
+     <p>my second gmail is</p>
+     <p class="gmail">shenwixun@gm.pu.edu.tw</p>
+     <ul>
+        <li><a href="http//:google.com">google</a></li>
+        <li>fb</li>
+        <li>IG</li>
+     </ul>
+     <div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+     <div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+     <div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+     <!--<script src="./weixun.js"></script>-->
+  </body>
+</html>
